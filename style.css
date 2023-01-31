@@ -4,15 +4,81 @@ body {
     padding: 0;
 }
 
+body {
+    font-family: "lato", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
 .barra-de-topo {
     background-color: #ff6b2b;
     padding: 15px;
     text-align: center;
 }
 
-#cabecalho{
+#cabecalho {
     background-image: url(./imagens/1434078000000-Bolo-de-Fuba.jpg);
     height: 400px;
     background-size: cover;
     background-position: center;
+}
+
+.conteudo {
+    max-width: 990px;
+    margin: auto;
+    padding: 0 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ff6b2b;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.cartao {
+    padding: 70px 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.cartao:hover {
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+}
+
+.ingredientes {
+    cursor: pointer;
+}
+
+.preparo {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botao-comprar {
+    background-color: #ff6b2b;
+    padding: 16px;
+    border-radius: 20px;
+    color: white;
+}
+
+li {
+    margin-bottom: 14px;
+}
+
+.lista-ingredientes {
+    margin-bottom: 50px;
 }
