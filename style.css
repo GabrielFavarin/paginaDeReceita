@@ -50,6 +50,7 @@ h2 {
     padding: 70px 100px;
     margin-top: 50px;
     border-radius: 20px;
+    margin-bottom: 50px;
 }
 
 .cartao:hover {
@@ -64,6 +65,10 @@ h2 {
     cursor: pointer;
 }
 
+.instrucoes{
+    cursor: pointer;
+}
+
 a {
     text-decoration: none;
 }
@@ -72,7 +77,6 @@ a {
     background-color: #ff6b2b;
     padding: 16px;
     border-radius: 20px;
-    color: white;
 }
 
 li {
@@ -81,4 +85,26 @@ li {
 
 .lista-ingredientes {
     margin-bottom: 50px;
+}
+
+p{
+    line-height: 28px;
+}
+
+.rodape{
+    background-color: #ff6b2b;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.rodape-texto{
+    max-width: 500px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.texto-branco{
+    color: white;
 }
